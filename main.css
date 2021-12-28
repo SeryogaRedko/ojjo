@@ -9,7 +9,7 @@
 a {
     display: inline-block;
     text-decoration: none;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -55,7 +55,7 @@ header {
 }
 
 .title {
-    font-family: Noto Serif;
+    font-family: Noto Serif, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -65,7 +65,7 @@ header {
 }
 
 .button {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
