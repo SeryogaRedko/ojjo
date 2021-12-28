@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="first__nav">
+            <a href="#">Контрагентам</a>
+            <a href="#">Дизайнерам</a>
+            <a href="#">Вакансии</a>
+        </nav>
+        <a href="#" class="header__logo"><img src="./img/logo.png" alt="logo"></a>
+        <nav class="second__nav">
+            <a href="#"><img src="./img/magnifier.png" alt="magnifier"></a>
+            <a href="#">Поиск</a>
+            <a href="#">Вход/Регистрация</a>
+            <a href="#"><img src="./img/man.png" alt="man"></a>
+            <a href="#"><img src="./img/heart.png" alt="heart"></a>
+        </nav>
+    </header>
+    <section>
+        <div class="text">
+            <div data-aos="fade-up-left">
+                <h1 class="title">Долго, дорого, богато!</h1>
+            </div>
+            <div data-aos="fade-up-right">
+                <a href="#" class="button">каталог изделий</a>
+            </div>
+        </div>
+        <div class="line"></div> 
+            <div class="coco slider">
+                <img src="./img/Rectangle 2.png" alt="coco">
+                <!-- <div class="line__v"></div> -->
+                <img src="./img/Rectangle 2.png" alt="coco">
+                <!-- <div class="line__v"></div> -->
+                <img src="./img/Rectangle 2.png" alt="coco">
+                <!-- <div class="line__v"></div> -->
+                <img src="./img/Rectangle 2.png" alt="coco">
+                <!-- <div class="line__v"></div> -->
+                <img src="./img/Rectangle 2.png" alt="coco">
+                <!-- <div class="line__v"></div> -->
+                <img src="./img/Rectangle 2.png" alt="coco">
+            </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script>
+        $('.slider').slick({
+            slidesToShow: 3,
+            dots: true,
+            centerMode:true,
+            centerPadding: '100px',
+            slidesToScroll: 1,
+            speed: 600,
+            autoplay: false,
+            autoplaySpeed: 2000,
+        });
+    </script>
+</body>
+</html>
